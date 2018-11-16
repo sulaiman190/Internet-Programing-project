@@ -1,0 +1,133 @@
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4242f4;
+    border-radius: 4px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #f44242;
+}
+#search{
+      width: 300px;
+      padding: 7px;
+      border: 1px solid #607d8b;
+      border-radius: 4px;
+      margin-top: 6px;
+     }
+#submit{
+      padding: 7px;
+      background: #607d8b;
+      border: 1px solid #607d8b;
+      color: white;
+      margin-left: -5px;
+      margin-top: 6px;
+      border-radius: 4px;
+     }
+body{
+    background-color: #4682B4;
+    color:#FFFFFF;
+    /*background-image: url("newyork.jpg");*/
+    text-shadow: 1px 1px #000000;
+    font-family: 'Robot', 'Arial', 'sans-serif';
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 10vh;
+    padding: 0vh 2% 2% 2%;
+    max-width: 100%;
+}
+body#home{
+     background-image: url("Client-Portal.jpg");
+}
+body#skill {
+    background-image: url("newyork.jpg");
+}
+body#experiance {
+    background-image: url("image.jpg");
+}
+body#journal {
+    background-image: url("journal.jpg");
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+footer{
+    background-color:#000000;
+    font-size: .9em;
+    padding: .5em 0 1em 0;
+    
+}
+.center{
+    text-align: center;
+}
+#content {
+    background: linear-gradient(to top, #848c9c 0%, #687080 50%, #a7b1c5 100%);
+    background: -webkit-linear-gradient(bottom, #848c9c 0%, #687080 50%, #a7b1c5 100%);
+   
+}
+.gallery {
+    width: 728px;
+    margin: auto;
+}
+.gallery ul {
+    list-style: none;
+}
+.gallery li {
+    float: left;
+    margin: 10px;   
+}
+#tittle {
+     background-color: #889093;
+      background-image: url("spring-park.jpg");
+      background-size: auto;
+      padding: 2vh 1% 1% 1%;
+      font-family: 'Robot', 'Stencil' Std', 'fantasy';
+}
+
+#project{
+     height:25vh;
+     padding: 2vh 2% 2% 2%;
+}
+table, th, td {
+    border: 6px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+@media screen and (min-width:600px){
+    main{
+        width:50%;
+        float: left;
+    }
+}

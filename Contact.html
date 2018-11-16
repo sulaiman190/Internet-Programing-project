@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="proStyles.css">
+            <script src="conctactform.js"> </script>
+            <style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #800000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #0000CD;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+</style>
+            
+            <title>sulaiman website</title>
+        </head>
+       <body onLoad="document.registration.userid.focus();">
+            <header>
+             <section id=tittle>   
+                <h1>Sulaiman Jalloh</h1>
+                <p><strong>email:</strong>sjalloh105@gmail.com</p>
+                <p><strong>Phone:</strong>99-XXX-XXXX</p>
+               <p><strong>Address:</strong>Bronx New york</p>
+             </section>
+                 <div class="nav"
+                    <ul>
+                            <li><a class="active" href="index.html">Home</a></li>
+                            <li><a href="Experience.html">Experiance</a></li>
+                             <li><a href="Skills.html">Skills</a></li>
+                            <li><a href="Journal.html">Journal</a></li>
+                             <li><a href="Gallery.html">Gallery</a></li>
+                             <li><a href="https://en.wikipedia.org/wiki/Guinea"target="_blank">Nationality</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                            
+                             <li>
+                                <form action="https://www.google.com"target="_blank">
+                                <input type="text" placeholder= "Search.... " maxlength="10" id= "search">
+                                 <input type="submit" value="seach" id= "submit">
+                             
+                                </form>
+                            </li>
+                    </ul>
+                </div>
+            </header>
+                <h2>Contact me</h2>
+                 <form name='registration' onSubmit= "return conctactformValidation();" method="post"
+                 action="mailto:sjalloh105@gmail.com">
+                <ul>
+                        <label for="fname">First name:</label>
+                          <input type="text" name="fname" size="50" placeholder="i.e: sulaiman" />
+                          <label for="lname">Last name:</label></li>
+                          <input type="text" name="lname" size="50" placeholder="i.e: jalloh" />
+                          <label for="Mnumber">Mobile number:</label>
+                          <input type="text" name="Mnumber"  placeholder="i.e: 000-000-00000"/>
+                          <label for="email">Email:</label>
+                          <input type="text" name="email" size="50" placeholder="i.e: jalloh@mail.com" />
+                          <label for="desc">Subject</label>
+                          <textarea name="ind="inquiry"></textarea></li>
+                          <input type="submit" name="submit" value="Submit" />
+                </ul>
+                </form>
+         <footer class="center">
+                 <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+                Copyright &copy; 2017
+            </footer>
+            
+        </body>
+    </html>
